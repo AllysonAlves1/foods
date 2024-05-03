@@ -20,10 +20,11 @@ export default async function ProductPage({
       category: {
         name: "Sucos",
       },
+      restaurant: {
+        id: product?.restaurant.id,
+      },
     },
-    include: {
-      restaurant: true,
-    },
+    include: { restaurant: true },
   });
 
   if (!product) {
