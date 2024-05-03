@@ -1,10 +1,9 @@
-const name = "";
-console.log(name);
+import Header from "./_components/header";
 
 export default function Home() {
   return (
-    <div className="m-2 bg-red-500 p-2">
-      <h1>Next.js + TypeScript + Tailwind CSS</h1>
+    <div className="m-2  p-2">
+      <Header />
     </div>
   );
 }
