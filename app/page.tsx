@@ -20,6 +20,7 @@ export default async function Home() {
       restaurant: { select: { name: true } },
     },
   });
+
   return (
     <>
       <Header />
